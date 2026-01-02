@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "SNU Sugang Accum UI",
+  "version": "0.1.1",
+  "description": "Injects an accum/download UI on SNU sugang course search pages (with optional summary fetch).",
+  "permissions": [],
+  "host_permissions": [
+    "https://sugang.snu.ac.kr/sugang/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://sugang.snu.ac.kr/sugang/cc/cc100InterfaceSrch.action*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

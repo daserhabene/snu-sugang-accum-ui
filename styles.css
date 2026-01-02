@@ -1,0 +1,65 @@
+#__sugang_accum_ui__ {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 2147483647;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px 12px 10px;
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(0,0,0,.16);
+  font: 13px/1.45 system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  max-width: 420px;
+  color: #111;
+}
+
+#__sugang_accum_ui__ .title {
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+#__sugang_accum_ui__ .stat {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#__sugang_accum_ui__ .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+#__sugang_accum_ui__ button {
+  padding: 8px 10px;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  background: #f7f7f7;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+#__sugang_accum_ui__ button.primary {
+  background: #fff;
+  font-weight: 800;
+}
+
+#__sugang_accum_ui__ button.danger {
+  background: #fff;
+  font-weight: 800;
+  color: #b00020;
+  border-color: #e1a6a6;
+}
+
+#__sugang_accum_ui__ a.manual {
+  display: block;
+  margin-top: 8px;
+  color: #0b57d0;
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+#__sugang_accum_ui__ .note {
+  color: #666;
+  font-size: 12px;
+}
